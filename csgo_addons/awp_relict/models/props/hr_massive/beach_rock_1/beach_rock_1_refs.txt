@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\hr_massive\beach_rock_1\beach_rock_1.vmt"
+}

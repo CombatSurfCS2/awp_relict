@@ -1,0 +1,94 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_lightmappedgeneric.vfx"
+
+	//---- Fancy Blending ----
+	F_FANCY_BLENDING 2 // NewLayerBlending,g
+
+	//---- Number of Additional Layers ----
+	F_LAYERS 1 // WorldVertexTransition
+
+	//---- Blend Modulation ----
+	g_flBevelBlendSharpness "2.000"
+	g_flBevelBlendStrength "0.000"
+	g_flBevelBlendWidth "4.000"
+	g_flBlendSoftness "0.010"
+	g_flLayerBorderOffset "0.000"
+	g_flLayerBorderSoftness "0.500"
+	g_flLayerBorderStrength "0.500"
+	g_vLayerBorderTint "[0.737255 0.737255 0.737255 0.000000]"
+	TextureBlendModulation "materials/de_aztec/hr_aztec/hr_aztec_roof_stone_01_blend.tga"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_flVertexColorOpacityScale "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flMetalness "0.000"
+
+	//---- PBR 1 ----
+	g_vLayer1Tint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureLayer1AmbientOcclusion "materials/default/default_ao.tga"
+	TextureLayer1Color "materials/de_aztec/hr_aztec/hr_aztec_roof_stone_01_grey_color.tga"
+	TextureLayer1Normal "materials/de_aztec/hr_aztec/hr_aztec_roof_stone_01_grey_normal.tga"
+	TextureLayer1Roughness "materials/default/default_rough.tga"
+
+	//---- PBR 2 ----
+	g_vLayer2Tint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureLayer2AmbientOcclusion "materials/default/default_ao.tga"
+	TextureLayer2Color "materials/de_aztec/hr_aztec/hr_aztec_roof_stone_01_moss_color.tga"
+	TextureLayer2Normal "materials/de_aztec/hr_aztec/hr_aztec_roof_stone_01_grey_normal.tga"
+	TextureLayer2Roughness "materials/default/default_rough_s1import.tga"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	SystemAttributes
+	{
+		PhysicsSurfaceProperties "rock"
+		PhysicsSurfaceProperties2 "rock"
+	}
+
+
+	VariableState
+	{
+		"Blend Modulation"
+		{
+			"Texture" 0
+		}
+		"Color"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Lighting"
+		{
+			"Metalness" 0
+		}
+		"PBR 1"
+		{
+			"Albedo" 0
+			"Normal" 0
+			"Roughness" 0
+			"Ambient Occlusion" 0
+		}
+		"PBR 2"
+		{
+			"Albedo" 0
+			"Normal" 0
+			"Roughness" 0
+			"Ambient Occlusion" 0
+		}
+		"Texture Address Mode"
+		{
+		}
+	}
+}

@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\surf\decor_2.vmt"
+}

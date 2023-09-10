@@ -1,0 +1,6 @@
+importfilelist
+{
+	"file"	"materials\models\surf\concrete_black.vmt"
+	"file"	"materials\models\surf\el_pol.vmt"
+	"file"	"materials\models\surf\snow_ramp.vmt"
+}
